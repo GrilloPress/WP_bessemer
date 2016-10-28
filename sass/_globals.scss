@@ -1,0 +1,11 @@
+body {
+  
+  margin-top: 2em;
+  
+  @media screen and (max-width: $screen-xs) {
+    
+    margin-top: 3em;
+    
+  }
+  
+}

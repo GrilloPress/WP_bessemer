@@ -1,19 +1,28 @@
 .jumbotron {
   
   margin-top: -2em;
-  background-repeat: no-repeat;
-  background-position: 32% 0%;
-  background-size: cover;
-  
+
   @media screen and (min-width: $screen-sm-min){
     
     padding-top: 100px;
     
   }
   
+  @media screen and (max-width: $screen-sm-min){
+    
+    text-align: center;
+    
+  }
+  
   h1 {
     
     font-weight: 400;
+    
+  }
+  
+  .btn {
+    
+    margin-top: 1em;
     
   }
   

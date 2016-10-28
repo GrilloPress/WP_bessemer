@@ -42,22 +42,7 @@
 <body <?php body_class(); ?>>
   
     <header role="banner">
-      <div id="site-header">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <a class="navbar-brand hidden-xs" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>">
-                <img class="five-sth-icons" height="50" src="<?php echo get_template_directory_uri() . "/images/proud-five-logos-white.png"; ?>" alt="">
-              </a>
-              <a href="http://www.sth.nhs.uk" target="_blank" title="Sheffield Teaching Hospitals NHS Foundation Trust">
-                <img class="sth-logo pull-right" width="450" src="<?php echo get_template_directory_uri() . "/images/STHFT_white_transparent.png"; ?>">
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-				
-			<div class="navbar navbar-default">
+			<div class="navbar navbar-default navbar-fixed-top">
 				<div class="container">
           
 					<div class="navbar-header">
