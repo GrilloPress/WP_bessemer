@@ -46,7 +46,7 @@
         <div class="container">
           <div class="col-md-12">
             <div class="row">
-              <p>&copy; Sheffield Teaching Hospitals NHS Foundation Trust</p>
+              <p>&copy; BESSEMER 2016</p>
             </div>
           </div>
         </div>

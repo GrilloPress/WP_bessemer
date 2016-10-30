@@ -17,7 +17,7 @@ get_header(); ?>
 
 <section class="jumbotron">
    <div class="container">
-      <img class="alignright" src="<?php echo get_template_directory_uri() . "/images/bessemer_team_transp.png"; ?>" alt="The Bessemer team">
+      <img class="" src="<?php echo get_template_directory_uri() . "/images/bessemer_team_transp.png"; ?>" alt="The Bessemer team">
      <h1><?php echo CFS()->get( 'jumbotron_title' );?></h1>
     
      <p>
@@ -34,6 +34,9 @@ get_header(); ?>
 <section class="page-feature-container gray under-jumbotron">
   <div class="container">
     <div class="row">
+      <div class="col-md-12">
+        <h2 class="text-center">OUR SERVICES</h2>
+      </div>
       
       <?php
       $featured_pages = array("one", "two", "three");
