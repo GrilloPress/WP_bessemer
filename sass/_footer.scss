@@ -1,14 +1,14 @@
 .site-footer {
   
-  background-color: desaturate($brand-primary, 10%);
+  background-color: $brand-grey;
   padding-top: 2em;
-  margin-top: 2em;
+  // margin-top: 2em;
   
-  color: white;
+  // color: white;
   
   a {
     
-    color: white;
+    // color: white;
     
   }
   
@@ -16,16 +16,16 @@
 
 .sub-footer {
   
-  background-color: desaturate($brand-primary, 10%);
+  background-color: $brand-grey;
   padding-top: 2em;
   padding-bottom: 1em;
   margin-top: 2em;
   
-  color: white;
+  // color: white;
   
   a {
     
-    color: white;
+    // color: white;
     
   }
   

@@ -1,7 +1,7 @@
 // Creare's 'Implied Consent' EU Cookie Law Banner v:2.4
 // Conceived by Robert Kent, James Bavington & Tom Foyster
  
-var dropCookie = true;                      // false disables the Cookie, allowing you to style the banner
+var dropCookie = false;                      // false disables the Cookie, allowing you to style the banner
 var cookieDuration = 150;                    // Number of days before the cookie expires, and the banner reappears
 var cookieName = 'complianceCookieSTH';        // Name of our cookie
 var cookieValue = 'on';                     // Value of cookie

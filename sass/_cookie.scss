@@ -1,5 +1,12 @@
 #cookie-law {
   
+  position: fixed;
+  bottom: 0;
+  background-color: $brand-secondary;
+  width: 100%;
+  padding: 10px;
+  z-index: 1050;
+  
   p {
     
     text-align: center;

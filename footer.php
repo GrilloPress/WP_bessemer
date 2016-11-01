@@ -11,6 +11,16 @@
 
     </div><!-- #content -->
 
+    <section class="call-out">
+      <div class="container">
+        <div class="col-md-12">
+          <div class="text-center">
+            <a href="">Tell us about your next project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <footer id="colophon" class="site-footer" role="contentinfo">
       <div class="site-info container">
         <div class="row">
