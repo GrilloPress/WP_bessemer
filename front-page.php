@@ -26,7 +26,7 @@ get_header(); ?>
      
      <p>
        <?php $jbo_link = CFS()->get( 'jumbotron_btn' );?>
-       <a class="btn btn-success btn-lg" href="<?php echo $jbo_link["url"];?>" title="<?php echo $jbo_link["text"];?>" target="<?php echo $jbo_link["target"];?>" role="button"><?php echo $jbo_link["text"];?></a>
+       <a class="btn btn-warning btn-lg" href="<?php echo $jbo_link["url"];?>" title="<?php echo $jbo_link["text"];?>" target="<?php echo $jbo_link["target"];?>" role="button"><?php echo $jbo_link["text"];?></a>
      </p>
   </div>
 </section>
@@ -169,6 +169,15 @@ if ( $featurette_published ) {
 
 <section class="page-category-post-list">
   <div class="container">
+    <div class="col-md-12">
+      <h2 class="text-center">RECENT NEWS</h2>
+    </div>
+    
+    
+        
+
+        
+    
     <div class="row">
       
 
@@ -190,49 +199,42 @@ if ( $featurette_published ) {
 
           <!-- the loop -->
           <?php while ( $cat_query_left->have_posts() ) : $cat_query_left->the_post(); ?>
-        <div class="col-md-4">
           
-        
-        <div class="row">
-            
-            <div class="col-md-4 col-sm-4 col-xs-4">
+        <div class="col-md-4">
+
               <?php if ( has_post_thumbnail() ) :?>
                 <a href="<?php the_permalink() ;?>">
                   <?php the_post_thumbnail('thumbnail', array('class' => 'img-responsive img-full')); ?>
                 </a>
               <?php else :?>
                 <a href="<?php the_permalink() ;?>">
-                  <img class="img-responsive img-full" src="<?php echo get_template_directory_uri() . "/images/news-square.jpg"; ?>" alt="News">
+                  <img class="img-responsive" src="<?php echo get_template_directory_uri() . "/images/news.jpg"; ?>" alt="News">
                 </a>
               <?php endif ;?>
-            </div>
-            
-            <div class="col-md-8">
+
               <?php the_title( sprintf( '<h3 class="category-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h3>' ); ?>
               <?php the_excerpt(); ?>
-            </div>
-            
-          </div>
+
+      </div>
+        
           <?php endwhile; ?>
           <!-- end of the loop -->
 
           <?php wp_reset_postdata(); ?>
         
-        <?php
-          $category_id = get_cat_ID( 'news' );
-          $category_link = get_category_link( $category_id );
-        ?>
-        
-        <a class="btn btn-block btn-wire" href="<?php echo esc_url( $category_link ); ?>" title="News Category">Read more ...</a>
-
         
         <?php else : ?>
           <p><?php _e( 'Please write a post...' ); ?></p>
         <?php endif; ?>
         
-      </div>
+
       </div>  
-      
+    
+    <?php
+          $category_id = get_cat_ID( 'news' );
+          $category_link = get_category_link( $category_id );
+        ?>
+        <a class="" href="<?php echo esc_url( $category_link ); ?>" title="News Category">All news &amp; events</a>
 
   </div>
 </section>

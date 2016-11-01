@@ -9,23 +9,6 @@ section.sand {
   background-color: #F2E2D2;
 }
 
-// section call out on every footer but the contact page
-.call-out {
-
-  background-color: $brand-warning;
-  color: white;
-  padding: 1.5em;
-  font-size: 1.5em;
-  
-  a {
-    
-    color: white;
-    text-decoration: underline;
-    
-  }
-  
-}
-
 .under-jumbotron {
   
   margin-top: -2em;
@@ -138,10 +121,18 @@ section.sand {
     
   }
   
+  h3 {
+    
+    text-align: center;
+    font-size: 30px;
+    
+  }
+  
   img {
     
     margin-top: 0.5em;
-    margin-bottom: 0.5em
+    margin-bottom: 0.5em;
+    padding: 10px;
     
   }
   

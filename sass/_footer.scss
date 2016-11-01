@@ -1,3 +1,20 @@
+// section call out on every footer but the contact page
+.call-out {
+
+  background-color: $brand-secondary;
+  color: white;
+  padding: 1.5em;
+  font-size: 1.5em;
+  
+  a {
+    
+    color: white;
+    text-decoration: underline;
+    
+  }
+  
+}
+
 .site-footer {
   
   background-color: $brand-grey;

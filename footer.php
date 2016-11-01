@@ -9,9 +9,10 @@
 
 ?>
 
-    </div><!-- #content -->
-
-    <section class="call-out">
+</div><!-- #content -->
+<?php // if the page is not the contact page show the footer
+  if ( ! is_page( 11 ) ) {;?>
+  <section class="call-out">
       <div class="container">
         <div class="col-md-12">
           <div class="text-center">
@@ -20,6 +21,7 @@
         </div>
       </div>
     </section>
+<?php };?>
 
     <footer id="colophon" class="site-footer" role="contentinfo">
       <div class="site-info container">
