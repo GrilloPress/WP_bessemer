@@ -36,8 +36,8 @@
 // PAGE HEADER
 
 .entry-title {
-    
-  border-bottom: solid 5px desaturate($brand-primary, 5%);
+  
+  text-transform: uppercase;
   padding: 10px 0;
   color: $brand-primary;
   
@@ -69,6 +69,7 @@
   
   font-weight: 700;
   padding-left: 0;
+  text-transform: uppercase;
   
 }
 
