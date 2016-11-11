@@ -11,12 +11,12 @@
 
 </div><!-- #content -->
 <?php // if the page is not the contact page show the footer
-  if ( ! is_page( 11 ) ) {;?>
+  if ( ! is_page( get_page_by_title( 'Contact us' ) ) ) {;?>
   <section class="call-out">
       <div class="container">
         <div class="col-md-12">
           <div class="text-center">
-            <a href="<?php echo home_url('contact'); ?>">Tell us about your next project</a>
+            <a href="<?php echo get_permalink( get_page_by_title( 'Contact us' ) ); ?>">Tell us about your next project</a>
           </div>
         </div>
       </div>
